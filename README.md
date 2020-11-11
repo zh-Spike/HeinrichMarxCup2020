@@ -3,6 +3,9 @@
 
 ## 使用方法
 
-128csv是我整理好的题库
+128csv是我整理好的题库 excel打开
 
-其中题库存在/uxxx的填空题的答案这个要参考js的文字解码使用
+其中题库存在/uxxx的填空题答案这个要参考js的解码使用
+
+<https://www.css-js.com/tools/unicode.html>
+自己手动解码
