@@ -9,3 +9,6 @@
 
 <https://www.css-js.com/tools/unicode.html>
 自己手动解码
+
+个人推荐的做法是adb调试+TIM的orc识别+题库搜索
+<https://github.com/barry-ran/QtScrcpy>
