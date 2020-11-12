@@ -16,4 +16,11 @@ qtscrcpy
 
 链是手机投屏->timOCR->vscode查找
 
-版权所有:zh-spike 完全免费公开,买卖题库的直接举报就可以，唯一联系方式邮箱: zh-bebop@outlook.com，大家好用记得star哦！
+![image](https://github.com/zh-Spike/HeinrichMarxCup2020/blob/main/usage.gif)
+
+
+### 申明
+作者:zh-spike 
+
+完全免费公开,买卖题库的直接举报就可以，唯一联系方式邮箱: zh-spike@outlook.com，大家好用记得star哦！
+
