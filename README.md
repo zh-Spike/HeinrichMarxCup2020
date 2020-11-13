@@ -7,7 +7,9 @@
 
 题目提取的时候去掉了","，搜索的时候要注意一下,目前测试下来用正确的姿势搜题答案基本都有.
 
-其中题库存在/uxxx的填空题答案这个要参考js的解码使用<https://www.css-js.com/tools/unicode.html>自己手动解码
+~~其中题库存在/uxxx的填空题答案这个要参考js的解码使用<https://www.css-js.com/tools/unicode.html>自己手动解码~~
+
+已做填空题自动解码
 
 个人推荐的做法是adb调试+TIM的orc识别+题库搜索
 
