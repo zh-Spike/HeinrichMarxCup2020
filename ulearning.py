@@ -1,5 +1,5 @@
 # -*-coding:utf-8-*-
-# author: zh-spike
+# author: zh-Spike
 
 from typing import Pattern
 import requests
@@ -56,7 +56,7 @@ def work():
 	i = 0
 	uri_header="https://www.ulearning.cn/umooc/user/study.do?operation=examReport&examid=33716&examuserid=7853135"
 	with open('data.csv','w',encoding='utf-8') as f:
-		while i < 127:
+		while i < 499:
 			res_header =session.get(uri_header, headers={"UA-AUTHORIZATION": token})
 			res_header=res_header.text
 			# soup = BeautifulSoup(res_header,'html.parser')
@@ -90,7 +90,7 @@ def work():
 				qtitle=	qtitle.replace("\n","")
 				qtitle=	qtitle.replace(",","")
 				correctid = answer_id[number][0]
-				correctAnswer = answer_id[number][1]
+				correctAnswer = answer_id[number][1].encode('latin-1').decode('unicode_escape')
 				print('题号: {},题目: {},答案号: {},答案: {}'.format(qid,qtitle,correctid,correctAnswer))
 				f.write("{},{},{},{}\n".format(qid,qtitle,correctid,correctAnswer))
 				number += 1
