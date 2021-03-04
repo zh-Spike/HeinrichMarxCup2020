@@ -16,7 +16,7 @@
 qtscrcpy
 <https://github.com/barry-ran/QtScrcpy>
 
-链是手机投屏->timOCR->vscode查找
+链是手机投屏->OCR->vscode查找
 
 ![image](https://github.com/zh-Spike/HeinrichMarxCup2020/blob/main/usage.gif)
 
